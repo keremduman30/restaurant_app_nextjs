@@ -35,7 +35,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className=" flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50 ">
+    <div className=" flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row  ">
       {/* Text container */}
       <div className="flex-1  flex items-center justify-center flex-col gap-8 font-bold text-red-500 ">
         <h1 className="text-5xl text-center uppercase p-4 md:text-6xl md:p-10 xl:text-7xl">
@@ -48,7 +48,7 @@ const Slider = () => {
         <Image
           src={data[currentSlice].image}
           alt=""
-          fill={true}
+          fill
           className="object-cover"
         />
       </div>
