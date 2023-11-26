@@ -1,7 +1,7 @@
 import React from "react";
 
 const SingleCategory = () => {
-  return <div>SingleCategory</div>;
+  return <div></div>;
 };
 
 export default SingleCategory;
