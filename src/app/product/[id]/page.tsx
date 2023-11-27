@@ -8,7 +8,7 @@ const SingleProduct = () => {
     <div className="p-4 lg:px-20 xl:p-40 h-screen flex flex-col  justify-around text-red-500 md:flex-row md:items-center md:gap-8 ">
       {/* image container */}
       {singleProduct.img && (
-        <div className="relative w-full h-1/2 md:h-[70%] ">
+        <div className="relative w-full h-1/2 md:h-[80%] ">
           <Image
             src={singleProduct.img}
             alt=""
